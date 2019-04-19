@@ -27,7 +27,7 @@ class Usercontroller extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.user.create',['title'=>'用户的添加页面']);
     }
 
     /**
