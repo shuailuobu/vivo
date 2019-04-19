@@ -1,8 +1,4 @@
 @extends('layout.admins')
-
-@section('title', $title)
-
-@section('content')
 <div class="mws-panel grid_8">
     <div class="mws-panel-header">
         <span>
@@ -202,10 +198,8 @@
 
 
 
-@section('js')
 <script>
     setTimeout(function(){
         $('.mws-form-message').slideUp(1200);
     },3000)
 </script>
-@stop
