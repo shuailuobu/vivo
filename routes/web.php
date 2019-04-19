@@ -20,4 +20,5 @@ Route::get('/', function () {
 Route::group([],function () {
 
 	Route::get('/admins','Admin\Indexcontroller@index');
+	Route::resource('admin/user','Admin\UserController');
 });

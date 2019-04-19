@@ -14,7 +14,10 @@ class Usercontroller extends Controller
      */
     public function index()
     {
-        //
+         return view('admin.user.index',[
+            'title'=>'用户的列表页面',
+            
+            ]);
     }
 
     /**

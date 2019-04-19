@@ -127,10 +127,10 @@
     <!-- Main Navigation --> 
     <div id="mws-navigation"> 
      <ul> 
-      <li> <a href="#"><i class="icon-users"></i>用户/收货地址</a> 
+      <li> <a href="#"><i class="icon-users"></i>用户管理</a> 
        <ul class="closed"> 
-        <li><a href="{{url('/adminuser')}}">会员列表</a></li> 
-        <li><a href="{{url('/address')}}">收货地址管理</a></li> 
+        <li><a href="{{url('/admin/user')}}">用户列表</a></li> 
+        <li><a href="{{url('/address')}}">用户添加</a></li> 
        </ul> </li> 
       <li> <a href="#"><i class="icon-th-list"></i>分类管理</a> 
        <ul class="closed"> 
