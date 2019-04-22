@@ -15,10 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//后台登录页面
-//
-Route::group([],function () {
 
+	//显示后台页面
 	Route::get('/admins','Admin\Indexcontroller@index');
+	// 后台用户管理
 	Route::resource('admin/user','Admin\UserController');
-});
+	//后台登录
+	Route::get('/admin/login', 'Admin\LoginController@login');
+
