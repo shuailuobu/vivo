@@ -39,7 +39,7 @@
                 <form class="mws-form" action="/admin/dologin" method="post">
                     <div class="mws-form-row">
                         <div class="mws-form-item">
-                            <input type="text" name="username" class="mws-login-username required" placeholder="请输入账号">
+                            <input type="text" name="name" class="mws-login-username required" placeholder="请输入账号">
                         </div>
                     </div>
                     <div class="mws-form-row">

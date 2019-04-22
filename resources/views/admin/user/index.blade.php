@@ -123,7 +123,11 @@
                             <img src="{{$v->profile}}" alt="" style='width: 70px'>
                         </td>
                         <td class=" ">
-                            {{$v->status}}
+                             <!-- 三元运算符 -->
+                            {{--$v->status ? '开启' : '禁用'--}}
+                            
+                            <!-- 自定义函数 -->
+                            {{sta($v->status)}}
                         </td>
                         <td class=" ">
                             <a class='btn btn-warning' href="/admin/user/{{$v->id}}/edit">修改</a>
