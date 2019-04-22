@@ -24,7 +24,7 @@ class Usercontroller extends Controller
                 $email = $request->email;
                 //如果用户名不为空
                 if(!empty($name)) {
-                    $query->where('name','like','%'.$username.'%');
+                    $query->where('name','like','%'.$name.'%');
                 }
                 //如果邮箱不为空
                 if(!empty($email)) {

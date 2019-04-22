@@ -22,4 +22,5 @@ Route::get('/', function () {
 	Route::resource('admin/user','Admin\UserController');
 	//后台登录
 	Route::get('/admin/login', 'Admin\LoginController@login');
+	
 
