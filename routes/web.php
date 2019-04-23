@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.index');
 });
 
 	//后台登录
@@ -36,3 +36,5 @@ Route::group(['middleware'=>'login'], function(){
 	Route::get('/admin/logout', 'Admin\loginController@logout');
 
 });
+
+
