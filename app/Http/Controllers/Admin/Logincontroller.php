@@ -53,7 +53,7 @@ class LoginController extends Controller
 
         //往session里面存储信息
         // Session::put()
-        session(['uname'=>$res->username]);
+        session(['uname'=>$res->name]);
 
         //跳转
         return redirect('/admins');
