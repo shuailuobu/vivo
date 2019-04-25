@@ -83,22 +83,24 @@
      </div> 
     </div> 
 
- 
+            @php
+                $res = DB::table('user')->where('name',session('uname'))->first();
+            @endphp
     <!-- User Information and functions section --> 
     <div id="mws-user-info" class="mws-inset"> 
      <!-- User Photo --> 
      <div id="mws-user-photo"> 
-      <img src="/static/image/15429361083987.jpg" alt="User Photo" /> 
+      <img src="{{$res->profile}}" alt="User Photo" /> 
      </div> 
      <!-- Username and Functions --> 
      <div id="mws-user-functions"> 
       <div id="mws-username">
-      Hello  帅萝卜
-      </div> 
+      Hello  {{$res->name}}
+      </div>  
       <ul> 
-       <li><a href="/users">个人中心</a></li> 
-       <li><a href="/updatepass">修改密码</a></li> 
-       <li><a href="/admin/logout">退出</a></li> 
+         <li><a href="/admin/profile/{{$res->id}}">头像修改</a></li>
+         <li><a href="/admin/changepass/{{$res->id}}">修改密码</a></li>
+         <li><a href="/admin/logout">退出</a></li>
       </ul> 
      </div> 
     </div> 
@@ -134,13 +136,13 @@
        </ul> </li> 
       <li> <a href="#"><i class="icon-th-list"></i>分类管理</a> 
        <ul class="closed"> 
-        <li><a href="{{url('/admin/cates/create')}}">分类添加</a></li> 
-        <li><a href="{{url('/admin/cates')}}">分类列表</a></li> 
+        <li><a href="/admin/category/create">分类添加</a></li> 
+        <li><a href="/admin/category">分类列表</a></li> 
        </ul> </li> 
       <li> <a href="#"><i class="icon-shopping-cart"></i>商品管理</a> 
        <ul class="closed"> 
-        <li><a href="{{url('/admingoods/create')}}">商品添加</a></li> 
-        <li><a href="{{url('/admingoods')}}">商品列表</a></li>
+        <li><a href="/admin/goods/create">商品添加</a></li> 
+        <li><a href="/admin/goods">商品列表</a></li>
         <li><a href="{{url('/adminsku')}}">sku列表</a></li> 
        </ul> </li> 
       <li> <a href="#"><i class="icon-pacman"></i>评价管理</a> 

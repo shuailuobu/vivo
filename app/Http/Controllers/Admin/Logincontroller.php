@@ -94,4 +94,115 @@ class LoginController extends Controller
         return redirect('/admin/login');
     }
 
+
+     /**
+     * 头像修改
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function profile($id)
+    {
+        //从session获取信息
+
+        //通过id获取信息
+        $res = User::find($id);
+
+        return view('admin.profile',[
+            'title'=>'设置头像信息',
+            'profile'=>$res->profile,
+            'id'=>$id
+
+        ]);
+    }
+
+
+
+
+    /**
+     * 处理头像信息
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function doprofile(Request $request, $id)
+    {
+        //获取上传的文件对象
+        $file = $request->file('profile');
+        //判断文件是否有效
+        if($file->isValid()){
+            //上传文件的后缀名
+            $entension = $file->getClientOriginalExtension();
+            //设置名字
+            $name = date('YmdHis').mt_rand(1000,9999);
+            //组成新的名字  jfkdsjfdsfjd.jpg
+     
+            $newName = $name.'.'.$entension;
+
+            $path = $file->move('./upload/admin',$newName);
+
+            $filepath = '/upload/admin/'.$newName;
+            //返回文件的路径
+            echo  $filepath;
+        }
+
+        $res['profile'] = $filepath;
+
+        //把id=5的头像的地址改变
+        User::where('id',$id)->update($res);
+    }
+
+    /**
+     * 修改密码的页面
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function changepass($id)
+    {
+
+        return view('admin.changepass',[
+            'title'=>'修改密码的页面',
+            'id'=>$id
+
+        ]);
+    }
+
+    /**
+     * 处理密码的信息
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function dopass(Request $request, $id)
+    {
+        //表单验证
+
+        //获取用户的信息
+        $res = User::where('id', $id)->first();
+        //把用户的密码查出来
+        $pass = $res->password;
+        //旧密码 的比对
+        if (!Hash::check($request->oldpass, $pass)) {
+            return redirect('/admin/changepass/'.$id)->with('error','原密码不正确');
+        }
+
+        //获取新密码
+        $newpass = $request->password;
+
+        //密码和确认密码的比对
+        $renewpass = $request->repass;
+
+        if($newpass != $renewpass){
+
+            return redirect('/admin/changepass/'.$id)->with('error','两次密码不一致');
+        }
+
+        $rs['password'] = Hash::make($newpass);
+
+        $data = User::where('id',$id)->update($rs);
+
+        if($data){
+
+            return redirect('/admin/login');
+        }
+
+    }
+
 }
