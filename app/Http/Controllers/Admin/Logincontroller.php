@@ -54,7 +54,7 @@ class LoginController extends Controller
         //往session里面存储信息
         // Session::put()
         session(['uname'=>$res->name]);
-
+        session(['uid'=>$res->id]);
         //跳转
         return redirect('/admins');
     }
@@ -203,6 +203,17 @@ class LoginController extends Controller
             return redirect('/admin/login');
         }
 
+    }
+
+     /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function roleper()
+    {
+        //显示页面
+        return view('admin.roleper');
     }
 
 }

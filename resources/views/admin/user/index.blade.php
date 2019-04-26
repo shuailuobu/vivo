@@ -71,7 +71,7 @@
                         </th>
                         <th class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_1"
                         rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending"
-                        style="width: 196px;">
+                        style="width: 96px;">
                             邮箱
                         </th>
                         <th class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_1"
@@ -130,6 +130,7 @@
                             {{sta($v->status)}}
                         </td>
                         <td class=" ">
+                          <a class='btn btn-info' href="/admin/userrole/{{$v->id}}">角色</a>
                             <a class='btn btn-warning' href="/admin/user/{{$v->id}}/edit">修改</a>
 
                             <form style='display:inline' action="/admin/user/{{$v->id}}" method='post'>

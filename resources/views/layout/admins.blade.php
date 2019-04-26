@@ -145,6 +145,16 @@
         <li><a href="/admin/goods">商品列表</a></li>
         <li><a href="{{url('/adminsku')}}">sku列表</a></li> 
        </ul> </li> 
+        <li> <a href="#"><i class="icon-shopping-cart"></i>权限管理</a> 
+       <ul class="closed"> 
+        <li><a href="/admin/permission/create">权限添加</a></li> 
+        <li><a href="/admin/permission">权限列表</a></li>
+       </ul> </li> 
+        <li> <a href="#"><i class="icon-shopping-cart"></i>角色管理</a> 
+       <ul class="closed"> 
+        <li><a href="/admin/role/create">角色添加</a></li> 
+        <li><a href="/admin/role">角色列表</a></li>
+       </ul> </li> 
       <li> <a href="#"><i class="icon-pacman"></i>评价管理</a> 
        <ul class="closed"> 
         <li><a href="{{url('/comments')}}">评价查看</a></li> 

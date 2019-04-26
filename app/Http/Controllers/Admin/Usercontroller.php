@@ -5,11 +5,89 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\FormRequest;
-use App\Model\Admin\User;
+
 use Intervention\Image\ImageManagerStatic as Image;
+use App\Model\Admin\User;
+use App\Model\Admin\Role;
 use Hash;
+use DB;
 class Usercontroller extends Controller
 {
+
+
+    /**
+     * 添加角色的页面
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function userrole($id)
+    {
+        //根据id获取响应的用户名
+        $res = User::find($id);
+
+        //获取角色信息
+        $roles = Role::get();
+
+        //获取用户的相关信息
+        $rs = $res->roles;
+
+        $ar = [];
+        foreach($rs as $k => $v){
+            $ar[] = $v->id;
+        }
+
+        return view('admin.user.userrole',[
+            'title'=>"用户角色添加页面",
+            'res'=>$res,
+            'roles'=>$roles,
+            'ar'=>$ar
+
+        ]);
+    }
+
+    /**
+     * 处理角色的方法
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function douserrole(Request $request)
+    {
+        //获取用户的id
+        $uid = $request->input('id');
+
+        //获取角色的id
+        $rs = $request->input('role_id');
+
+        //表 user_role
+        //根据用户的id删除信息
+        DB::table('user_role')->where('user_id',$uid)->delete();
+
+        $res = [];
+        foreach($rs as $k => $v){
+            $info = [];
+
+            $info['user_id'] = $uid;
+
+            $info['role_id'] = $v;
+
+            $res[] = $info;
+        }
+
+        //把拼接号的信息 插入到数据表中
+        $data = DB::table('user_role')->insert($res);
+
+        if($data){
+
+            return redirect('/admin/user');
+        } else {
+
+            return back();
+        }
+    }
+
+
+
+
     /**
      * Display a listing of the resource.
      *

@@ -513,24 +513,17 @@
       <div class="category-box"> 
        <div class="category-detail"> 
         <a class="category-all" href="/product/list-1">全部手机&nbsp;<span class="arrow"></span></a> 
-       
-        <p>手机</p> 
-
-        <ul class="category-sub has-border"> 
-          @foreach($row->suv as $rows) 
-         <li>
-         <a href="https://shop.vivo.com.cn/product/list-527" data-src="https://shop/static.vivo.com.cn/vivoshop/commodity/category/1551438066242hd_312x100.jpg">{{$rows->catename}}</a>
-         </li> 
-            @endforeach
-        </ul> 
-         
+           @foreach($row->suv as $rows) 
+        <p>{{$rows->catename}}</p> 
+          
+     
         <ul class="category-product"> 
          @foreach($rows->suv as $rowss) 
          <li data-id="10000534"> <a href="https://shop.vivo.com.cn/product/10000534?skuId=100739"> <img data-src="./home/static/picture/10000534_1552980516016_250x250.jpg" /> <span>{{$rowss->catename}}</span> </a> 
          </li> 
         @endforeach
         </ul> 
-
+        @endforeach
       
        </div> 
       </div> 

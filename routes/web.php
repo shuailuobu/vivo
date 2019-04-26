@@ -18,9 +18,11 @@
 	Route::post('/admin/dologin', 'Admin\LoginController@dologin');
 	//显示验证码
 	Route::get('/admin/captcha', 'Admin\LoginController@captcha');
-
+	//后台提示没有权限的路由
+	Route::get('/admin/roleper','Admin\LoginController@roleper');
 
 	//后台的路由组
+	// Route::group(['middleware'=>['login','checkrole']], function(){
 	Route::group(['middleware'=>'login'], function(){
 
 	//显示后台页面
@@ -45,6 +47,20 @@
 
 	//后台分类管理
 	Route::resource('/admin/category','Admin\CategoryController');
+
+	//后台权限管理
+	Route::resource('/admin/permission','Admin\PermissionController');
+
+	//后台角色管理
+	Route::resource('/admin/role','Admin\RoleController');
+	Route::get('/admin/roleper/{id}','Admin\RoleController@roleper');
+	Route::post('/admin/doroleper','Admin\RoleController@doroleper');
+
+	//后台添加角色的页面
+	Route::get('/admin/userrole/{id}','Admin\UserController@userrole');
+	Route::post('/admin/douserrole','Admin\UserController@douserrole');
+
+	
 
 });
 
