@@ -134,52 +134,51 @@
         <li><a href="/admin/user">用户列表</a></li> 
         <li><a href="/admin/user/create">用户添加</a></li> 
        </ul> </li> 
+
       <li> <a href="#"><i class="icon-th-list"></i>分类管理</a> 
        <ul class="closed"> 
         <li><a href="/admin/category/create">分类添加</a></li> 
         <li><a href="/admin/category">分类列表</a></li> 
        </ul> </li> 
+
       <li> <a href="#"><i class="icon-shopping-cart"></i>商品管理</a> 
        <ul class="closed"> 
         <li><a href="/admin/goods/create">商品添加</a></li> 
         <li><a href="/admin/goods">商品列表</a></li>
         <li><a href="{{url('/adminsku')}}">sku列表</a></li> 
        </ul> </li> 
+
         <li> <a href="#"><i class="icon-shopping-cart"></i>权限管理</a> 
        <ul class="closed"> 
         <li><a href="/admin/permission/create">权限添加</a></li> 
         <li><a href="/admin/permission">权限列表</a></li>
        </ul> </li> 
+
         <li> <a href="#"><i class="icon-shopping-cart"></i>角色管理</a> 
        <ul class="closed"> 
         <li><a href="/admin/role/create">角色添加</a></li> 
         <li><a href="/admin/role">角色列表</a></li>
        </ul> </li> 
+
       <li> <a href="#"><i class="icon-pacman"></i>评价管理</a> 
        <ul class="closed"> 
         <li><a href="{{url('/comments')}}">评价查看</a></li> 
        </ul> </li> 
+
        <li> <a href="#"><i class="icon-list-2"></i>订单管理</a> 
        <ul class="closed"> 
         <li><a href="{{url('/admin/order')}}">订单列表</a></li> 
        </ul> </li> 
+
        <li> <a href="#"><i class="icon-link"></i>友情链接</a> 
        <ul class="closed"> 
         <li><a href="{{url('/flink')}}">友情链接列表</a></li> 
        </ul> </li> 
-       <li> <a href="#"><i class="icon-apple-2"></i>广告管理</a> 
-       <ul class="closed"> 
-        <li><a href="/gg">广告列表</a></li> 
-       </ul> </li> 
-       <li> <a href="#"><i class="icon-pictures"></i>公告管理</a> 
-       <ul class="closed"> 
-        <li><a href="/adminannource/create">公告添加</a></li> 
-        <li><a href="/adminannource">公告列表</a></li> 
-       </ul> </li>
+
        <li> <a href="#"><i class="icon-pictures"></i>轮播图管理</a> 
        <ul class="closed"> 
-        <li><a href="/adminsowing/create">轮播图添加</a></li> 
-        <li><a href="/adminsowing">轮播图列表</a></li> 
+        <li><a href="/admin/sowing/create">轮播图添加</a></li> 
+        <li><a href="/admin/sowing">轮播图列表</a></li> 
        </ul> </li> 
      </ul> 
     </div> 

@@ -10,14 +10,15 @@
     <title>vivo智能手机官方商城-AI智慧旗舰NEX</title>
     <meta name="keywords" content='vivo智能手机官方商城'/>
     <meta name="description" content='vivo智能手机官方商城'/>
-    <link rel="shortcut icon" href="https://shophome/static.vivo.com.cn/vivoshop/web/dist/img/favicon_7c51b3b.ico">
-    <link href="home/static/css/iconfont_c4371bb.css" rel="stylesheet">
-    <link href="home/static/css/common-font_97cf836.css" class="J_replace_public" rel="stylesheet">
-    <link href="home/static/css/global_fe34e8a.css" rel="stylesheet" type="text/css"/>
-    <link href="home/static/css/common_cd32b91.css" class="J_replace_public" rel="stylesheet">
-    <link href="home/static/css/layout_320c7a1.css" rel="stylesheet" type="text/css"/>
-    <link href="home/static/css/dialog_232f414.css" rel="stylesheet" type="text/css"/>
-    <link href="home/static/css/index_cd86ee8.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://shop/home/static.vivo.com.cn/vivoshop/web/dist/img/favicon_7c51b3b.ico">
+    <link href="/home/static/css/iconfont_c4371bb.css" rel="stylesheet">
+    <link href="/home/static/css/common-font_97cf836.css" class="J_replace_public" rel="stylesheet">
+    <link href="/home/static/css/global_fe34e8a.css" rel="stylesheet" type="text/css"/>
+    <link href="/home/static/css/common_cd32b91.css" class="J_replace_public" rel="stylesheet">
+    <link href="/home/static/css/layout_320c7a1.css" rel="stylesheet" type="text/css"/>
+    <link href="/home/static/css/dialog_232f414.css" rel="stylesheet" type="text/css"/>
+    <link href="/home/static/css/index_cd86ee8.css" rel="stylesheet">
+    <link href="/home/js/jquery-3.2.1.min.js" rel="stylesheet">
     <!--[if lt IE 9]>
     <script type="text/javascript">
         window.location.href = 'http://www.vivo.com.cn/update_browser';
@@ -25,8 +26,10 @@
     <![endif]-->
 
 
-<link href="home/static/css/dialog_232f414.css" rel="stylesheet" type="text/css">
-<link href="home/static/css/home_260bcc2.css" rel="stylesheet" type="text/css"/>
+<link href="/home/static/css/dialog_232f414.css" rel="stylesheet" type="text/css">
+<link href="/home/static/css/home_260bcc2.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="/home/js/jquery.js"></script>
+    <script type="text/javascript" src="/home/js/plugins.js"></script>
 <!--[if IE 8]>
     <script>
         window.isIE8 = true;
@@ -34,7 +37,7 @@
 <![endif]-->
 
     <!--[if lt IE 9]>
-    <script src="home/static/js/html5shiv.min_40bd440.js"></script>
+    <script src="/home/static/js/html5shiv.min_40bd440.js"></script>
     <![endif]-->
 
 </head>
@@ -133,7 +136,7 @@
 
 
            <div class="home-foot-area-gw">
-        <style>#vivo-foot-wrap.vp-foot.vp-foot-wap{max-width:none;padding:0}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category-list{display:block;width:auto;margin-left:0}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category-list>li{display:block;width:auto}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category{overflow:hidden;height:13.51852vw;transition:height .4s}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category dt{padding:0 9.25926vw;cursor:pointer;color:#656565;font-size:4.25926vw;height:13.51852vw;line-height:13.51852vw;font-weight:400}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category dt::after{content:'';width:2.5vw;height:2.5vw;background:url(home/static/images/list-icon_8dad93e.png) no-repeat center;background-size:contain;margin-top:5.74074vw;float:right;transition:transform .4s}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category dd{padding:0 9.25926vw;font-size:3.7037vw;height:12.96296vw;line-height:12.96296vw;margin-bottom:0;color:#656565}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category dd>a{display:block}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category.vp-foot-active dt{background-color:rgba(0,0,0,.02)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category.vp-foot-active dt::after{transform:rotate(45deg)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact{position:home/static;display:block;width:auto}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare{display:block;margin-top:3.14815vw;height:8.88889vw;font-size:0;padding-left:9.25926vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>span{font-size:3.33333vw;line-height:8.88889vw;margin-right:2.40741vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList{display:inline-block;vertical-align:top;position:home/static}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li{width:8.88889vw;height:8.88889vw;margin-right:1.11111vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li>a,#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li>span{text-align:center}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li>a:before,#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li>span:before{width:100%;height:100%;line-height:8.88889vw;font-size:5.18519vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list li{position:fixed;z-index:999;left:0;right:0;top:0;bottom:0;padding:0;background:rgba(0,0,0,.4);visibility:hidden;opacity:0;transition:.4s;transition-property:opacity,visibility}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list li.vp-foot-active{visibility:visible;opacity:1}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-close::after,#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-close::before{content:'';position:absolute;left:0;right:0;top:50%;height:.27778vw;transform:translateY(-50%) rotate(45deg);background:#fff}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-close{position:absolute;right:5.55556vw;top:14.81481vw;width:7.40741vw;height:7.40741vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-close::after{transform:translateY(-50%) rotate(-45deg)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list>li>div{position:absolute;left:50%;top:50%;z-index:100;transform:translate(-50%,-50%);width:70%;text-align:center;background:#fff;border-radius:1.38889vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list>li>div>img{width:65%;box-shadow:0 5px 30px -2px #EAEAEA;padding:.92593vw;margin-top:8%}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list>li>div>p{display:block}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-name{font-size:3.88889vw;padding-top:8%;color:#4d4e4f}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list a{position:relative;display:block;margin-top:8%;font-size:3.33333vw;color:#415fff}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list hr{width:3.33333vw;height:1px;background-color:#415fff;border:0;margin:7px auto}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-prompt{font-size:3.33333vw;color:#bbb;padding-top:6%;padding-bottom:8%}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact hr{display:block;height:.27778vw;background-color:#f2f2f2;margin:0 9.25926vw;border:0}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>div:first-of-type{display:inline-block;box-sizing:border-box;width:50%;vertical-align:middle;line-height:17.87037vw;padding-left:7.40741vw;box-sizing:border-box;padding-right:9.25926vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>div:first-of-type:active{background-color:rgba(0,0,0,.02)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact p{display:inline-block;vertical-align:middle;padding-top:0;font-size:3.33333vw;color:#656565;line-height:normal}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online{width:50%;vertical-align:middle;line-height:17.87037vw;margin:0;font-size:4.25926vw;color:#456fff;padding-left:9.25926vw;box-sizing:border-box}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online:active{background-color:rgba(0,0,0,.02)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online span{padding-right:1.85185vw;line-height:normal}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online span svg{width:6.66667vw;height:4.25926vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online span svg path{stroke:#415fff}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online span svg circle{fill:#415fff}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-phone{color:#008cd6;font-size:4.25926vw;display:none}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-phone~p>a{color:#456fff;font-size:4.25926vw;display:block;padding-bottom:1.94444vw;line-height:normal}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-bottom{margin-top:0;padding:4.62963vw 9.25926vw;border-top:0;position:relative}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-country{font-size:3.33333vw;position:absolute;top:-6.85185vw;right:9.25926vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-country::after{display:none}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-copyright{padding-top:0;color:#656565;font-size:2.59259vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-copyright>a.vp-foot-cricon{margin-left:0}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-copyright .vp-foot-lastLine{display:none}</style>
+        <style>#vivo-foot-wrap.vp-foot.vp-foot-wap{max-width:none;padding:0}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category-list{display:block;width:auto;margin-left:0}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category-list>li{display:block;width:auto}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category{overflow:hidden;height:13.51852vw;transition:height .4s}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category dt{padding:0 9.25926vw;cursor:pointer;color:#656565;font-size:4.25926vw;height:13.51852vw;line-height:13.51852vw;font-weight:400}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category dt::after{content:'';width:2.5vw;height:2.5vw;background:url(/home/static/images/list-icon_8dad93e.png) no-repeat center;background-size:contain;margin-top:5.74074vw;float:right;transition:transform .4s}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category dd{padding:0 9.25926vw;font-size:3.7037vw;height:12.96296vw;line-height:12.96296vw;margin-bottom:0;color:#656565}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category dd>a{display:block}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category.vp-foot-active dt{background-color:rgba(0,0,0,.02)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-category.vp-foot-active dt::after{transform:rotate(45deg)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact{position:/home/static;display:block;width:auto}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare{display:block;margin-top:3.14815vw;height:8.88889vw;font-size:0;padding-left:9.25926vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>span{font-size:3.33333vw;line-height:8.88889vw;margin-right:2.40741vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList{display:inline-block;vertical-align:top;position:/home/static}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li{width:8.88889vw;height:8.88889vw;margin-right:1.11111vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li>a,#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li>span{text-align:center}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li>a:before,#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare>ul.vp-foot-codeList>li>span:before{width:100%;height:100%;line-height:8.88889vw;font-size:5.18519vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list li{position:fixed;z-index:999;left:0;right:0;top:0;bottom:0;padding:0;background:rgba(0,0,0,.4);visibility:hidden;opacity:0;transition:.4s;transition-property:opacity,visibility}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list li.vp-foot-active{visibility:visible;opacity:1}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-close::after,#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-close::before{content:'';position:absolute;left:0;right:0;top:50%;height:.27778vw;transform:translateY(-50%) rotate(45deg);background:#fff}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-close{position:absolute;right:5.55556vw;top:14.81481vw;width:7.40741vw;height:7.40741vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-close::after{transform:translateY(-50%) rotate(-45deg)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list>li>div{position:absolute;left:50%;top:50%;z-index:100;transform:translate(-50%,-50%);width:70%;text-align:center;background:#fff;border-radius:1.38889vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list>li>div>img{width:65%;box-shadow:0 5px 30px -2px #EAEAEA;padding:.92593vw;margin-top:8%}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list>li>div>p{display:block}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-name{font-size:3.88889vw;padding-top:8%;color:#4d4e4f}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list a{position:relative;display:block;margin-top:8%;font-size:3.33333vw;color:#415fff}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list hr{width:3.33333vw;height:1px;background-color:#415fff;border:0;margin:7px auto}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>.vp-foot-vivoCare .vp-foot-qrcode-list .vp-foot-prompt{font-size:3.33333vw;color:#bbb;padding-top:6%;padding-bottom:8%}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact hr{display:block;height:.27778vw;background-color:#f2f2f2;margin:0 9.25926vw;border:0}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>div:first-of-type{display:inline-block;box-sizing:border-box;width:50%;vertical-align:middle;line-height:17.87037vw;padding-left:7.40741vw;box-sizing:border-box;padding-right:9.25926vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact>div:first-of-type:active{background-color:rgba(0,0,0,.02)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-contact p{display:inline-block;vertical-align:middle;padding-top:0;font-size:3.33333vw;color:#656565;line-height:normal}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online{width:50%;vertical-align:middle;line-height:17.87037vw;margin:0;font-size:4.25926vw;color:#456fff;padding-left:9.25926vw;box-sizing:border-box}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online:active{background-color:rgba(0,0,0,.02)}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online span{padding-right:1.85185vw;line-height:normal}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online span svg{width:6.66667vw;height:4.25926vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online span svg path{stroke:#415fff}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-online span svg circle{fill:#415fff}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-phone{color:#008cd6;font-size:4.25926vw;display:none}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-phone~p>a{color:#456fff;font-size:4.25926vw;display:block;padding-bottom:1.94444vw;line-height:normal}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-bottom{margin-top:0;padding:4.62963vw 9.25926vw;border-top:0;position:relative}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-country{font-size:3.33333vw;position:absolute;top:-6.85185vw;right:9.25926vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-country::after{display:none}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-copyright{padding-top:0;color:#656565;font-size:2.59259vw}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-copyright>a.vp-foot-cricon{margin-left:0}#vivo-foot-wrap.vp-foot.vp-foot-wap .vp-foot-copyright .vp-foot-lastLine{display:none}</style>
 <div id="vivo-foot-wrap" class="vp-foot "  style="min-width: 1200px">
   <ul class="vp-foot-category-list">
     <li>
@@ -207,14 +210,14 @@
                 <li data-icon-name="wechat">
                     <span data-head-click-stat="cfrom=1116&name=关注vivo&position=2"></span>
                     <div class="vp-foot-QRCode">
-                        <img data-vp-footer-src="home/static/picture/vivo-follow-wechat_b1e2888.jpg">
+                        <img data-vp-footer-src="/home/static/picture/vivo-follow-wechat_b1e2888.jpg">
                         <span>公众号：vivo智能手机</span>
                     </div>
                 </li>
                 <li data-icon-name="ali">
                     <span data-head-click-stat="cfrom=1116&name=关注vivo&position=3"></span>
                     <div class="vp-foot-QRCode">
-                        <img data-vp-footer-src="home/static/picture/vivo-follow-ali_6f99f2c.jpg">
+                        <img data-vp-footer-src="/home/static/picture/vivo-follow-ali_6f99f2c.jpg">
                         <span>生活号：vivo智能手机</span>
                     </div>
                 </li>
@@ -224,8 +227,8 @@
                     <span class="vp-foot-close"></span>
                     <div>
                         <p class="vp-foot-name">公众号：vivo智能手机</p>
-                        <img data-vp-footer-src="home/static/picture/vivo-follow-wechat_b1e2888.jpg">
-                        <a href="//wwwhome/static.vivo.com.cn/vivoportal/web/dist/common_umix/images/vivo-follow-wechat_b1e2888.jpg">保存二维码</a>
+                        <img data-vp-footer-src="/home/static/picture/vivo-follow-wechat_b1e2888.jpg">
+                        <a href="//www/home/static.vivo.com.cn/vivoportal/web/dist/common_umix/images/vivo-follow-wechat_b1e2888.jpg">保存二维码</a>
                         <hr>
                         <p class="vp-foot-prompt">保存后可在微信扫码关注</p>
                     </div>
@@ -234,8 +237,8 @@
                     <span class="vp-foot-close"></span>
                     <div>
                         <p class="vp-foot-name">生活号：vivo智能手机</p>
-                        <img data-vp-footer-src="home/static/picture/vivo-follow-ali_6f99f2c.jpg">
-                        <a href="//wwwhome/static.vivo.com.cn/vivoportal/web/dist/common_umix/images/vivo-follow-ali_6f99f2c.jpg">保存二维码</a>
+                        <img data-vp-footer-src="/home/static/picture/vivo-follow-ali_6f99f2c.jpg">
+                        <a href="//www/home/static.vivo.com.cn/vivoportal/web/dist/common_umix/images/vivo-follow-ali_6f99f2c.jpg">保存二维码</a>
                         <hr>
                         <p class="vp-foot-prompt">保存后可在支付宝扫码关注</p>
                     </div>
@@ -296,31 +299,31 @@
 <script>
     var webCtx = '',
         HOMEURL = 'https://www.vivo.com.cn',
-        IMGHOSTURL = 'https://shophome/static.vivo.com.cn/vivoshop/',
+        IMGHOSTURL = 'https://shop/home/static.vivo.com.cn/vivoshop/',
         passportLoginUrlPrefix = 'https://passport.vivo.com.cn/v3/web/login/authorize?client_id=3&redirect_uri=';
 </script>
 
 
-<script src="home/static/js/jquery.min_65e2d60.js"></script>
-<script src="home/static/js/tweenmax.min_92cf05a.js"></script>
-<script src="home/static/js/jquery.cookie_d5528dd.js"></script>
-<script src="home/static/js/jquery.lazyload_8b427f9.js"></script>
-<script src="home/static/js/jquery.nicescroll.min_f01d838.js"></script>
-<script src="home/static/js/jquery-placeholder_e51dc06.js"></script>
-<script src="home/static/js/clamp_a80c754.js" async defer></script>
-<script src="home/static/js/login_confirm_485e7b4.js" async defer></script>
-<script src="home/static/js/dialog_9e48f76.js"></script>
-<script src="home/static/js/vivo-stat_185b28f.js" async defer></script>
-<script src="home/static/js/vivo-common_a205bc7.js"></script>
-<script src="home/static/js/vivo-track_d936ad2.js"></script>
-<script src="home/static/js/clamp_a80c754.js"></script>
-<script type="text/javascript" src="home/static/js/index.pack_bae1a5e.js"></script>
-<script src="home/static/js/dialog_9e48f76.js"></script>
-<script src="home/static/js/jquery.validate.min_3b00d60.js"></script>
-<script src="home/static/js/jquery.easing_6516449.js"></script>
-<script src="home/static/js/index_ee70b7d.js"></script>
-<script src="home/static/js/index_c9f4736.js"></script>
-<script src="home/static/js/vmonitor.min.js"></script>
+<script src="/home/static/js/jquery.min_65e2d60.js"></script>
+<script src="/home/static/js/tweenmax.min_92cf05a.js"></script>
+<script src="/home/static/js/jquery.cookie_d5528dd.js"></script>
+<script src="/home/static/js/jquery.lazyload_8b427f9.js"></script>
+<script src="/home/static/js/jquery.nicescroll.min_f01d838.js"></script>
+<script src="/home/static/js/jquery-placeholder_e51dc06.js"></script>
+<script src="/home/static/js/clamp_a80c754.js" async defer></script>
+<script src="/home/static/js/login_confirm_485e7b4.js" async defer></script>
+<script src="/home/static/js/dialog_9e48f76.js"></script>
+<script src="/home/static/js/vivo-stat_185b28f.js" async defer></script>
+<script src="/home/static/js/vivo-common_a205bc7.js"></script>
+<script src="/home/static/js/vivo-track_d936ad2.js"></script>
+<script src="/home/static/js/clamp_a80c754.js"></script>
+<script type="text/javascript" src="/home/static/js/index.pack_bae1a5e.js"></script>
+<script src="/home/static/js/dialog_9e48f76.js"></script>
+<script src="/home/static/js/jquery.validate.min_3b00d60.js"></script>
+<script src="/home/static/js/jquery.easing_6516449.js"></script>
+<script src="/home/static/js/index_ee70b7d.js"></script>
+<script src="/home/static/js/index_c9f4736.js"></script>
+<script src="/home/static/js/vmonitor.min.js"></script>
 <script>
     if (window.VMonitor) {
         window.VMonitor.init({

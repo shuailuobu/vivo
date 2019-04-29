@@ -24,7 +24,7 @@
 	//后台的路由组
 	// Route::group(['middleware'=>['login','checkrole']], function(){
 	Route::group(['middleware'=>'login'], function(){
-
+// 
 	//显示后台页面
 	Route::get('/admins','Admin\IndexController@index');
 	 
@@ -60,7 +60,8 @@
 	Route::get('/admin/userrole/{id}','Admin\UserController@userrole');
 	Route::post('/admin/douserrole','Admin\UserController@douserrole');
 
-	
+	//后台轮播图管理
+	Route::resource('/admin/sowing','Admin\SowingController');
 
 });
 
@@ -71,4 +72,6 @@
 	//前台显示
 	Route::resource('/','Home\IndexController');
 
+	//前台购物车
+	Route::get('/home/cart','Home\CartController@cart');
 	

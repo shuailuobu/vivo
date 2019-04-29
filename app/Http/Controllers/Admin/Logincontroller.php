@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use Gregwar\Captcha\CaptchaBuilder;
 use Session;
 use Hash;
-
+use DB;
 use App\Model\Admin\User;
 
 class LoginController extends Controller
@@ -55,6 +55,7 @@ class LoginController extends Controller
         // Session::put()
         session(['uname'=>$res->name]);
         session(['uid'=>$res->id]);
+
         //跳转
         return redirect('/admins');
     }
