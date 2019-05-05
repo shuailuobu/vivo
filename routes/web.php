@@ -70,8 +70,47 @@
 // 前台
 
 	//前台显示
-	Route::resource('/','Home\IndexController');
+	Route::resource('/','Home\Indexcontroller');
 
 	//前台购物车
 	Route::get('/home/cart','Home\CartController@cart');
+	
+	
+	//前台的注册页面
+	Route::get('/home/regist','Home\RegisterController@regist');
+	// 前台处理注册
+	Route::post('/home/doregist','Home\RegisterController@doregist');
+
+	Route::get('/home/remind','Home\RegisterController@remind');
+	// 
+	Route::post('/home/yzm','Home\RegisterController@yzm');
+	//检测注册手机号
+	Route::post('/home/checkphone','Home\RegisterController@checkphone');
+	//检测用户名
+	Route::post('/home/checkName','Home\RegisterController@checkName');
+	// 检测校验码
+	Route::get('/home/checkcode','Home\RegisterController@checkcode');
+	
+
+
+
+	// 前台登录页面
+	Route::get('/home/login','Home\LoginController@login');
+	//处理手机验证码和账号登录逻辑
+	Route::post('/home/dologin','Home\LoginController@dologin');
+	// 切换为验证码登录
+	Route::get('/home/tochange1','Home\LoginController@tochange1');
+	// 判断手机号是否一致
+	Route::post('/home/loginphone','Home\LoginController@loginphone');
+	// 登录验证码判断
+	Route::post('/home/logincode','Home\LoginController@logincode');
+	
+	// //处理qq登录
+	// Route::get('/home/qqlogin','Home\LoginController@qqlogin');
+	// //qq回调地址
+	// Route::get('/home/Login/get_code_state','Home\LoginController@get_code_state');
+
+	// 个人中心
+	Route::get('/home/personal','Home\PlazaController@plaza');
+	
 	

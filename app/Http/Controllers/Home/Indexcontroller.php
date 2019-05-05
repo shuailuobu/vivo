@@ -13,7 +13,7 @@ class Indexcontroller extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    //公共方法
+    // 公共方法
      public function getcatesbypid($pid){
         $res=DB::table("category")->where("pid",'=',$pid)->get();
          $data=[];
@@ -28,10 +28,10 @@ class Indexcontroller extends Controller
 
     public function index()
     {
-          $category=$this->getcatesbypid(0);
+          // $category=$this->getcatesbypid(0);
         // dd($cate);
         //加载前台页面
-        return view("home.index",['category'=>$category]);
+        return view("home.index");
     }
 
     /**
