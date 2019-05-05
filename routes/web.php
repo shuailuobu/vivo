@@ -112,5 +112,8 @@
 
 	// 个人中心
 	Route::get('/home/personal','Home\PlazaController@plaza');
+
+	Route::get('/home/dopersonal','Home\PlazaController@pla');
+
 	
 	
